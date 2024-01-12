@@ -9,8 +9,7 @@ export const Burger: React.FC<BurgerProps> = ({ ingredients}) => {
         <div className="Seeds2"></div>
       </div>
       {ingredients.map((ingredient, index) => (
-        <div className={ingredient.name} key={index}>
-          <div>{ingredient.name}</div>
+        <div className={ingredient.style} key={index}>
         </div>
       ))}
       <div className="BreadBottom"></div>

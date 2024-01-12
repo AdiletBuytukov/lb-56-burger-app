@@ -5,6 +5,59 @@
   text-align: center;
 }
 
+.ing-main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .ing-image {
   max-width: 200px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.ing-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  padding: 0;
+}
+
+
+.ing-btn-add {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: white;
+  padding: 20px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.ing-btn-add:hover {
+  background-color: transparent;
+}
+
+
+.ing-btn-remove {
+  background-color: gray;
+  border-color: gray;
+  padding: 20px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.ing-btn-remove:hover {
+  background-color: transparent;
 }
